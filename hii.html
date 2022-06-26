@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive website</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+   .box{
+    border: 2px solid black;
+    display: inline-block;
+    /* transform:translate(134px,56px); */
+    /* transform: skew(3deg,10deg); */
+    /* height: 500px; */
+   }
+   img:hover{
+    width: 45px;
+    
+   }
+   /* p:hover{
+    color: red;
+   } */
+   img{
+    width: 455px;
+     transition-property: width;
+     transition-duration: 3s;
+     transition-timing-function: ease-in;
+   }
+   
+   h3{
+    display:inline-grid;
+    color: white;
+    margin: 0 23px;
+    grid-template-columns: auto auto;
+    margin-top: 1%;
+   }
+   .gautam{
+    background-color: black;
+    height: 50px;
+
+   }
+    @media screen and (max-width:400px) { 
+        html{background-color:red;}
+         .h1 { background-color: white;
+        }
+        h5{ margin-top: -370px;
+            color: blue;
+        }
+    }
+  
+ 
+   
+   
+</style>
+<body>
+    <div class="gautam">
+    <h3>Home</h3>
+    <h3>About</h3>
+    <h3>Contact</h3>
+    </div>
+    <!-- <br> -->
+
+    <div class="box">
+        <img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg">
+    </div>
+    <div class="h1">
+    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid cupiditate, veritatis quod quisquam, at soluta maiores reiciendis quas qui eligendi provident, deserunt sed excepturi atque totam corporis quos ex aspernatur.</h4>
+    </div>
+    <h5>GOOD MORNING SIR!</h5>
+    
+    
+</body>
+</html>
