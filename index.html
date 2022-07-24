@@ -158,15 +158,21 @@ span11{
         <img src="https://user-images.githubusercontent.com/108167504/176671751-c83bbf59-0760-42b8-8134-a8a038a1b129.png" alt="facebook" height="50"id="we">
 
         <br>
-   <div class="left">   <span10>  Email:<input type="text" placeholder="Enter Email address"id="he"reguired></span10>
+        <form method="post">
+
+   <div class="left">   <span10>  Email:<input type="text" placeholder="Enter Email address"id="he"required></span10>
         <br><br>
-        password:<input type="text" placeholder="Enter password"id="she"reguired> </div> 
+        password:<input type="text" placeholder="Enter password"id="she"required> </div> 
         <br>
         <div class="login"><button> login </button></div>
+        </form>
          
          
     <br>
+
     </div>
+    <form method="post">
+
     <h1>facebook helps you connect and share 
         <footer> the people in your life.
             <p>
@@ -190,18 +196,18 @@ span11{
                 
                <h1>sign up</h1>
              <nav>
-               <input type="text" placeholder="Enter first name"  width="50"id="01"reguired>
-            <input type="text" placeholder="Enter last name" reguired>
+               <input type="text" placeholder="Enter first name" name="username" autocomplete="username" required="" width="50"id="01">
+            <input type="text" placeholder="Enter last name" required="" >
             <br><br>
-            <input type="text" placeholder="Enter mobile number"reguired>
+            <input type="mobile number" placeholder="Enter mobile number" name="number" autocomplete="cc-number" required="">
             <br><br>
-            <input type="text" placeholder=" Re-enter Email or mobile number "reguired>
+            <input type="text" placeholder=" Re-enter Email or mobile number " required="">
             <br><br>
-            <input type="password" placeholder=" New password"reguired>
+            <input type="password" placeholder=" New password"  autocomplete="password" required="">
              </nav>
             <br><br>
             <h2>Birthday</h2>
-            Date:<select Day>
+            Date:<select Day >
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -234,8 +240,8 @@ span11{
                 <option>30</option>
                 <option>31</option>
        
-            </select>
-            Month:<select month>
+            </select >
+            Month:<select month >
                <option>Jan</option>
                <option>Feb</option>
                <option>Mar</option>
@@ -249,7 +255,7 @@ span11{
                <option>Nov</option>
                <option>Dec</option>
            </select>
-          year: <select year>
+          year: <select year >
                <option>2022</option>
                <option>2021</option>
                <option>2020</option>
@@ -320,23 +326,24 @@ span11{
            </select><br><br>
           <main> <h2>Select Gender</h2>
     
-    <label for="04">
-        <input type="radio" value="male" name="gender" id="04"reguired>Male
+    <label for="04" >
+        <input type="radio" value="male" name="gender" id="04" required="">Male
     </label>
     <label for="02">
-        <input type="radio" value="Female" name="gender" id="02"reguired>Female
+        <input type="radio" value="Female" name="gender" id="02" required="">Female
 
     </label>
     <label for="03">
-        <input type="radio" value="custom" name="gender" id="03"reguired>Custom
+        <input type="radio" value="custom" name="gender" id="03" required="">Custom
     </label>
     <br><br>
     <h5>By clicking sign up you agree to  our <a href="h.html">terms </a>  and
         <footer> that you have read our <a href="h.html">Data Policy</a>  .our <a href="h.html"> Cookie use</a> </footer> </h5>
         
-        <button>
-            sign up 
-        </button>
+
+        <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+
         <br><br>
         <u>
             <img src="https://mpoverello.files.wordpress.com/2022/02/meta-facebook-logo.png"  alt="facebook" height="70">
